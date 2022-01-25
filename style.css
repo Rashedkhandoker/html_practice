@@ -1,0 +1,19 @@
+.title{
+    color: #fff;
+    font-size: 2rem;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+
+}
+
+table{
+    border-collapse: collapse;
+
+}
+table,th,td{
+    border: 1px solid rgb(red, green, blue);
+}
+th,td{
+    padding: 10px;
+}
