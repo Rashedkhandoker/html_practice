@@ -1,20 +1,79 @@
-.title{
-    color: #fff;
-    font-size: 2rem;
-    background-color: green;
-    text-align: center;
-    padding: 20px;
+*{   
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+/* menu css start */
 
+.menu{
+  background: #000;
+  overflow: hidden;
 }
- table{
-     border-collapse: collapse; 
-     text-align: center;
-     width: 100%;
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.menu ul li{
+  float: left;
+}
+.menu ul li a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 14px;
+  display: inline-block;
+  transition: .8s ease-in-out;
+}
+.menu ul li a:hover{
+  background: rgb(182, 165, 243);
+}
+.post{
+  border: 2px dashed #ddd;
+  padding: 10px;
+  background: lightgray;
+  margin: 20px;
+  overflow: hidden;
+}
+.post img{
+  float: left;
+  margin-right: 20px;
+}
 
+* {
+    font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sedgwick Ave', cursive;
 }
-table,th,td{
-    border: 1px solid black;
+
+.title {
+  color: rgb(19, 17, 17);
+  font-size: 2rem;
+  background-color: rgb(157, 138, 243);
+  text-align: center;
+  padding: 20px;
 }
-th,td{
-    padding: 10px;
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+}
+td {
+  background-color: white;
+  transition: 0.4s ease-in-out;
+}
+td:hover {
+  background-color: tomato;
 }
